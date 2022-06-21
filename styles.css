@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+nav {
+  display: flex;
+  height: 5vh;
+  margin-bottom: 10px;
+}
+
+#nav-left {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  font-weight: bold;
+  color: white;
+}
+
+#nav-left:hover {
+  background-color: red;
+  color: black;
+}
+
+#nav-right {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+}
+
+#nav-right:hover {
+  background-color: red;
+}
+
+#nav-right a:hover {
+  color: black;
+}
+
+a {
+  margin: 20px;
+}
+
+#nav-right a {
+  margin-left: 50px;
+}
+
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+}
+
+section {
+  display: flex;
+}
+
+section div {
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+#left-section {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 500px;
+  justify-content: space-between;
+}
+
+#right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 30%;
+  height: 500px;
+  justify-content: space-between;
+}
+
+#right-section div {
+  min-height: 100%;
+}
+
+ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 20px;
+}
